@@ -12,27 +12,22 @@
     <br>
     <big><a href="https://en.wikipedia.org/wiki/Game_engine">Game engine</a> is
       very useful thing for game programmers. A simple game engine is just a
-      library with game programming related classes or functions. How I can
-      become game engine developer? OK, I explain it.<br>
+      library with game programming related classes or functions. How I become
+      game engine developer? OK, I explain it.<br>
       <br>
       I bought <a href="http://www.ritmixrussia.ru/products/rzx-50">RZX-50</a>
       because I like <a href="https://en.wikipedia.org/wiki/Emulator">emulation</a>
       and old-school video games. RZX-50 similar to <a href="https://en.wikipedia.org/wiki/Dingoo_A320">Dingoo
         A320</a>, but RZX-50 use Dingux as firmware by default. Dingux is Linux
       bases operating system. I made my own multimedia library for Dingux
-      because I want test myself as Linux programmer.<br>
+      because I want test myself as Linux programmer. This library has a
+      cross-platform layered architecture. It has a two kinds of subsystems:
+      system-specific and common subsystems. Common subsystems working over
+      system-specif subsystems.<br>
       <br>
-      This library has a cross-platform layered architecture. It has a two kinds
-      of subsystems: system-specific and common subsystems. Common subsystems
-      working over system-specif subsystems.<br>
-      <br>
-      I also made my own multimedia library for Microsoft Windows. I was done it
+      I also made few multimedia libraries for Microsoft Windows. I was done it
       by easy way: just forked my Dingux library and replace all system-specific
-      subsystems. This fork is designed for Windows XP or higher.<br>
-      <br>
-      Windows XP is too old. What about a modern systems? I just made another
-      fork. It is designed for Windows Vista or higher. This fork using <a href="https://en.wikipedia.org/wiki/Direct2d">Direct2D</a>
-      for render.<br>
+      subsystems.<br>
       <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B4%D0%B2%D0%B8%D0%B6%D0%BE%D0%BA"></a></big><br>
     <div style="text-align: center;"><big style="text-decoration: underline;">Download
         center</big><br>
@@ -56,7 +51,7 @@
             </big></td>
           <td colspan="1" rowspan="1" style="vertical-align: top;"><big>Simple
               dingux game framework is powerful and simple multimedia library
-              for Dingux. It support Dingoo A320 and compatible devices<br>
+              for Dingux. It support Dingoo A320 and compatible devices.<br>
             </big></td>
         </tr>
         <tr>
@@ -68,15 +63,24 @@
             </big></td>
           <td colspan="1" rowspan="1" style="vertical-align: top; width: 537.933px;"><big>Simple
               windows game framework is simple multimedia library for Windows XP
-              or higher<br>
+              or higher. It using <a href="http://opengl.org/">OPENGL</a> for
+              render.<br>
             </big></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/PopovEvgeniy/ORGF/releases"><big>Orthodox
+                game framework</big></a></td>
+          <td><big>MIT</big></td>
+          <td><big>Simple windows game framework is simple multimedia library
+              for Windows XP or higher. It uses software render via <a href="https://msdn.microsoft.com/en-us/library/aa286572.aspx">GDI</a>.</big></td>
         </tr>
         <tr>
           <td><a href="https://github.com/PopovEvgeniy/IGF/releases"><big>Indie
                 game framework</big></a></td>
           <td><big>MIT</big></td>
           <td><big>Indie game framework is simple multimedia library for Windows
-              Vista or higher</big></td>
+              Vista or higher. It </big><big>using <a href="https://en.wikipedia.org/wiki/Direct2d">Direct2D</a>
+              for render.</big></td>
         </tr>
       </tbody>
     </table>
