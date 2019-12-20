@@ -3,8 +3,8 @@
     <meta http-equiv="content-type" content="text/html; charset=windows-1251">
     <title>Game engines</title>
   </head>
-  <body style="  color: rgb(0, 0, 0); background-color: rgb(255, 204, 153);" alink="#000099"
-    vlink="#990099" link="#000099">
+  <body style="color: rgb(0, 0, 0); background-color: rgb(255, 204, 153);" alink="#000099"
+    link="#000099" vlink="#990099">
     <div style="text-align: center;"><big style="text-decoration: underline;">Project
         Description</big><br>
     </div>
@@ -17,17 +17,50 @@
       I bought <a href="http://www.ritmixrussia.ru/products/rzx-50">RZX-50</a>
       because I like <a href="https://en.wikipedia.org/wiki/Emulator">emulation</a>
       and old-school video games. RZX-50 similar to <a href="https://en.wikipedia.org/wiki/Dingoo_A320">Dingoo
-        A320</a>, but RZX-50 use Dingux as firmware by default. Dingux is Linux
-      bases operating system. I made my own multimedia library for Dingux
-      because I want test myself as Linux programmer. This library has a
-      cross-platform layered architecture. It has a two kinds of subsystems:
-      system-specific and common subsystems. Common subsystems working over
-      system-specif subsystems.<br>
-      <br>
+        A320</a>, but RZX-50 use <a href="https://code.google.com/archive/p/dingoo-linux/">Dingux</a>
+      as firmware by default. Dingux is Linux bases operating system. I made my
+      own multimedia library for Dingux because I want test myself as Linux
+      programmer. This library has a cross-platform layered architecture. It has
+      a two kinds of subsystems: system-specific and common subsystems. Common
+      subsystems working over system-specif subsystems.<br>
     </big>
     <p><big> I also made few multimedia libraries for Microsoft Windows. I did
         it by easy way: just forked my Dingux library and replace all
         system-specific subsystems.</big></p>
+    <div style="text-align: center;"><big style="text-decoration: underline;">Features</big><br>
+    </div>
+    <p><big>A good game engine must have optimal set of features. Let’s look to
+        features of my game engines.<br>
+        <br>
+        Common features:<br>
+        <br>
+        &nbsp;&nbsp;&nbsp; • Easy to use object-orientated API.<br>
+        &nbsp;&nbsp;&nbsp; • Graphics primitives.<br>
+        &nbsp;&nbsp;&nbsp; • Animated and static sprites.<br>
+        &nbsp;&nbsp;&nbsp; • Scrollable and static backgrounds.<br>
+        &nbsp;&nbsp;&nbsp; • Tile-maps.<br>
+        &nbsp;&nbsp;&nbsp; • Image loader with <a href="https://en.wikipedia.org/wiki/PCX">PCX</a>
+        and <a href="https://en.wikipedia.org/wiki/Truevision_TGA">TGA</a>
+        support.<br>
+        &nbsp;&nbsp;&nbsp; • Text drawing subsystem.<br>
+        &nbsp;&nbsp;&nbsp; • Custom fonts.<br>
+        &nbsp;&nbsp;&nbsp; • Timers.<br>
+        &nbsp;&nbsp;&nbsp; • Collision detector.<br>
+        &nbsp;&nbsp;&nbsp; • Integrated fps counter.<br>
+        <br>
+        Microsoft Windows specific features:<br>
+        <br>
+        &nbsp;&nbsp;&nbsp; • Powerful input subsystem: keyboard, mouse,
+        game-pad.<br>
+        &nbsp;&nbsp;&nbsp; • Simple multimedia subsystem for playing audio and
+        video.<br>
+        &nbsp;&nbsp;&nbsp; • Coordinate transformation subsystem.<br>
+        <br>
+        Dingoo Linux specific features:<br>
+        <br>
+        &nbsp;&nbsp;&nbsp; • Simple input subsystem<br>
+        &nbsp;&nbsp;&nbsp; • Fast render via <a href="https://en.wikipedia.org/wiki/Linux_framebuffer">frame-buffer</a>.<br>
+      </big></p>
     <div style="text-align: center;"><big style="text-decoration: underline;">Download
         center</big><br>
       <big style="text-decoration: underline;"> </big></div>
@@ -55,13 +88,15 @@
               </big></td>
           </tr>
           <tr>
-            <td><a href="https://github.com/PopovEvgeniy/neongdk/releases"><big>Neon game development kit</big></a></td>
+            <td><a href="https://github.com/PopovEvgeniy/neongdk/releases"><big>Neon
+                  game development kit</big></a></td>
             <td><big>zlib</big></td>
             <td><big>Neon game development kit is simple multimedia library for
                 Windows XP or higher. It uses software render via <a href="https://docs.microsoft.com/en-us/windows/desktop/gdi/windows-gdi">GDI</a>.</big></td>
           </tr>
           <tr>
             <td colspan="1" rowspan="1" style="vertical-align: top; width: 262.983px;"><a
+
                 href="https://github.com/PopovEvgeniy/SWGF/releases"><big>Simple
                   windows game framework</big></a><br>
             </td>
